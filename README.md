@@ -76,3 +76,5 @@ pip install -r requirements.txt
 - Write 15-20 test questions with hand-checked answers and measure how often the generated SQL is correct.
 - Record failure cases and improve the prompt based on them.
 - Add support for follow-up questions.
+
+  Python, SQLite, pandas, Streamlit, [OpenAI API](https://platform.openai.com/) (LLM for text-to-SQL)
