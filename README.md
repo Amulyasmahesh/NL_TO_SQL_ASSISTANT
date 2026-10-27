@@ -66,14 +66,4 @@ pip install -r requirements.txt
 3. Get a free API key from [Groq](https://console.groq.com/keys) and create a `.env` file containing `GROQ_API_KEY=your_key`.
 4. Run the app: `streamlit run app.py`
 
-## Limitations
 
-- Accuracy has not been measured yet, so generated SQL can be wrong. Check results before trusting them.
-- The keyword checks plus the read-only connection are a reasonable first defence, not a complete security solution.
-- Available models and free-tier limits change over time. If a model is retired, update `MODEL` in `sql_assistant.py`.
-
-## Next steps
-
-- Write 15-20 test questions with hand-checked answers and measure how often the generated SQL is correct.
-- Record failure cases and improve the prompt based on them.
-- Add support for follow-up questions.
